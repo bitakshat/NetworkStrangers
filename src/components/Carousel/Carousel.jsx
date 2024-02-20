@@ -26,6 +26,10 @@ const Carousel = () => {
             <div><img src={carouselimage} alt="carousel image" /></div>
             <div><img src={carouselimage} alt="carousel image" /></div>
             <div><img src={carouselimage} alt="carousel image" /></div>
+            <div><img src={carouselimage} alt="carousel image" /></div>
+            <div><img src={carouselimage} alt="carousel image" /></div>
+            <div><img src={carouselimage} alt="carousel image" /></div>
+            <div><img src={carouselimage} alt="carousel image" /></div>
         </Glider>
     )
 }
