@@ -2,7 +2,7 @@ import React from "react";
 
 const JobTile = (props) => {
     return (
-        <div className="transition-all duration-500 w-[304px] h-[206px] bg-sky-100 flex justify-center items-center flex-col gap-2 rounded-tileradius hover:bg-gradient-to-r from-[#029ED8] to-[#3F5EFB] hover:text-white">
+        <div className="text-[#1E1E1E] transition-all duration-500 w-[304px] h-[206px] bg-sky-100 flex justify-center items-center flex-col gap-2 rounded-tileradius hover:bg-gradient-to-r from-[#029ED8] to-[#3F5EFB] hover:text-white">
             <h3 className="text-f24 text-center font-w500">{props.title}</h3>
             <h5>{props.location}</h5>
             <h4>{props.experience}</h4>
