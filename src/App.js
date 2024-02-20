@@ -40,7 +40,7 @@ function App() {
         </div>
       </section>
       {/* section two */}
-      <section className="w-full bg-black text-zinc-50 mt-40 p-20">
+      <section className="w-full bg-black text-zinc-50 mt-40 p-20 pb-40">
         <div className="w-[1062px]">
           <div data-aos="fade-up">
             <h3 className="text-f48">How is Life at</h3>
@@ -52,8 +52,10 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="h-96 p-16 bg-gradient-to-r from-sky-500 to-blue-600 w-full flex justify-center items-center">
-        <Carousel />
+      <div className="h-72 p-16 relative bg-gradient-to-r from-sky-500 to-blue-600 w-full flex justify-center items-center">
+        <div className="w-full absolute top-[-100px]">
+          <Carousel />
+        </div>
       </div>
       {/* job openings section */}
       <section className="w-full flex justify-center flex-col items-center pb-20">
@@ -69,8 +71,8 @@ function App() {
         {/* tile component  */}
         <div className="w-[1278px] flex justify-center items-center" data-aos="fade-up">
           <div className="flex justify-center items-center flex-wrap gap-5">
-            {jobTile.map((e, index) => (
-              <JobTile key={index} title={e.job.title} location={e.job.location} experience={e.job.experience} />
+            {jobTile.map((e, idx) => (
+              <JobTile key={idx} title={e.job.title} location={e.job.location} experience={e.job.experience} />
             ))}
           </div>
         </div>
