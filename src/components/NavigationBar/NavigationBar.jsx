@@ -4,10 +4,10 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
 
 const NavigationBar = () => {
     return (
-        <nav className='flex justify-around items-center w-full p-navspacing'>
+        <nav className='flex sm:justify-around justify-center sm:flex-row flex-col items-center w-full p-navspacing'>
             <h1 className='text-navfontsize font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600'>NetWorkStranger</h1>
-            <div className='flex justify-between items-center w-3/4 text-navfontsize shadow-md rounded-navradius border-2 p-navpadding text-neutral-500'>
-                <ul className='flex between items-center w-full gap-4'>
+            <div className='flex justify-between items-center sm:w-3/4 w-full text-navfontsize sm:shadow-md rounded-navradius sm:border-2 border-0 p-navpadding text-neutral-500'>
+                <ul className='sm:flex sm:justify-start sm:items-center sm:w-full sm:gap-4 hidden'>
                     <li><div className="group relative">
                         <a href="#" className="px-3 py-2">About Us <FontAwesomeIcon icon={faAngleDown} /></a>
                         <div className="hidden group-hover:block absolute z-10 bg-gray-200 text-[#555555] mt-2 p-2 rounded-md opacity-70">
@@ -22,9 +22,9 @@ const NavigationBar = () => {
                     <li>Support <FontAwesomeIcon icon={faAngleDown} /></li>
                 </ul>
                 {/* buttons */}
-                <div className='flex gap-4 '>
+                <div className='flex gap-4 justify-center items-center text-f12'>
                     <button className='p-btnpadding border-2 rounded-btnradius w-[99px] text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600 relative'>Login</button>
-                    <button className='w-[211px] p-btnpadding rounded-btnradius bg-gradient-to-r from-sky-500 to-blue-600 text-white'>Get Started for Free</button>
+                    <button className='sm:w-[211px] w-[131px] text-f12 sm:p-btnpadding rounded-btnradius bg-gradient-to-r from-sky-500 to-blue-600 text-white'>Get Started for Free</button>
                 </div>
             </div>
         </nav>

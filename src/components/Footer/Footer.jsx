@@ -3,13 +3,13 @@ import facebook from '../../assets/icons/facebook.svg'
 
 const Footer = () => {
     return (
-        <footer className='bg-black w-full h-[498px] flex justify-center items-center'>
+        <footer className='bg-black w-full sm:h-[498px] h-max flex justify-center items-center'>
             <div className='m-20 w-full text-[#CECECE]'>
-                <div className='flex justify-around items-start'>
+                <div className='flex sm:justify-around sm:items-start sm:flex-row justify-around items-center flex-col'>
                     {/* left section */}
-                    <div className='flex justify-center items-start flex-col gap-5' data-aos="fade-up">
+                    <div className='flex justify-center sm:items-start items-center flex-col gap-5'>
                         <h1 className='text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB]'>NetWorkStranger</h1>
-                        <div className='w-[277px]'>
+                        <div className='w-[277px] sm:text-navfontsize text-f12 sm:text-start text-center'>
                             Experience genuine connections tailored to your ambitions. Engage in real, unscripted conversations with industry peers. Find mentors, collaborators, and friends who inspire you.
                         </div>
 
@@ -62,11 +62,11 @@ const Footer = () => {
                     </div>
 
                     {/* right section */}
-                    <div className='flex justify-around items-start w-full h-[290px]' data-aos="fade-up">
+                    <div className='flex sm:justify-around sm:items-start w-full h-[290px] sm:p-0 p-5'>
                         {/* about us */}
                         <div className="h-full">
-                            <h1 className='text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB]'>About Us</h1>
-                            <ul className='[&>*]:mt-4 h-full'>
+                            <h1 className='sm:text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB] text-footerfont'>About Us</h1>
+                            <ul className='[&>*]:mt-4 h-full sm:text-f12'>
                                 <li className='hover:underline'>Company Overview</li>
                                 <li className='hover:underline'>Key Features</li>
                                 <li className='hover:underline'>Our Team</li>
@@ -76,8 +76,8 @@ const Footer = () => {
                         </div>
                         {/* Resources */}
                         <div className="h-full">
-                            <h1 className='text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB]'>Resources</h1>
-                            <ul className='[&>*]:mt-4 h-full'>
+                            <h1 className='sm:text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB]'>Resources</h1>
+                            <ul className='[&>*]:mt-4 h-full sm:text-f12'>
                                 <li className='hover:underline'>Membership Plans</li>
                                 <li className='hover:underline'>Blogs</li>
                                 <li className='hover:underline'>Latest News</li>
@@ -85,8 +85,8 @@ const Footer = () => {
                         </div>
                         {/* support  */}
                         <div className="h-full">
-                            <h1 className='text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB]'>Support</h1>
-                            <ul className='[&>*]:mt-4 hover:[&>*]:underline h-full'>
+                            <h1 className='sm:text-f24 font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-[#029ED8] to-[#3F5EFB]'>Support</h1>
+                            <ul className='[&>*]:mt-4 hover:[&>*]:underline h-full sm:text-f12'>
                                 <li className='hover:underline'>FAQ's</li>
                                 <li className='hover:underline'>Contact Us</li>
                             </ul>
@@ -97,11 +97,13 @@ const Footer = () => {
                 {/* line   */}
                 <div className="h-[3px] w-full mt-10 bg-gradient-to-r from-[#000] from-1% via-sky-500 via-[percentage:80%] to-[#000]"></div>
                 {/* copyright info */}
-                <div className='flex gap-5 items-center mt-5'>
-                    <h1 className='font-navfontsize font-masterbold text-white'>NetWorkStranger</h1>
-                    <div className='flex gap-5 text-footerfont'>
-                        <p>Copyright &#169; All Rights Reserved</p>
-                        <ul className="list-disc flex gap-5">
+                <div className='flex gap-5 items-center mt-5 sm:flex-row flex-col'>
+                    <div className='flex justify-around items-center gap-10'>
+                        <h1 className='sm:font-navfontsize text-f12 font-masterbold text-white'>NetWorkStranger</h1>
+                        <p className='sm:text-footerfont text-[10px]'>Copyright &#169; All Rights Reserved</p>
+                    </div>
+                    <div className='flex gap-5 sm:text-footerfont text-[10px]'>
+                        <ul className="list-disc flex gap-5 sm:flex-nowrap flex-wrap">
                             <li>Use Agreement</li>
                             <li>Terms &amp; Conditions</li>
                             <li>Privacy Policy</li>
