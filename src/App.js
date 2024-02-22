@@ -58,9 +58,7 @@ function App() {
       {/* job openings section */}
       <section className="w-full flex justify-center flex-col items-center pb-20">
         <div className="flex justify-center items-center flex-col sm:m-24 mt-24">
-          <h1 className="sm:text-f48 text-f24 font-black" data-aos="fade-up">
-            Latest Job Openings
-          </h1>
+          <h1 className="sm:text-f48 text-f24 font-black">Latest Job Openings</h1>
           <p className="sm:text-f20 text-footerfont text-center text-neutral-500">Start your dream career now. Join our team of professionals</p>
         </div>
 
@@ -75,7 +73,7 @@ function App() {
       </section>
       {/* companies  */}
       <section className="w-full flex justify-center items-center flex-col gap-10 p-10">
-        <h4 className="sm:text-f24 text-footerfont text-[#1E1E1E]">Trusted by individuals and teams at the world’s boldest companies</h4>
+        <h4 className="sm:text-f24 text-footerfont text-center text-[#1E1E1E]">Trusted by individuals and teams at the world’s boldest companies</h4>
         <img src={companieslogo} alt="companies logos" />
 
         {/* line */}

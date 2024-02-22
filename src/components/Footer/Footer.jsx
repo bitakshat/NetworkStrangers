@@ -4,7 +4,7 @@ import facebook from '../../assets/icons/facebook.svg'
 const Footer = () => {
     return (
         <footer className='bg-black w-full sm:h-[498px] h-max flex justify-center items-center'>
-            <div className='m-20 w-full text-[#CECECE]'>
+            <div className='sm:m-20 m-5 w-full text-[#CECECE]'>
                 <div className='flex sm:justify-around sm:items-start sm:flex-row justify-around items-center flex-col'>
                     {/* left section */}
                     <div className='flex justify-center sm:items-start items-center flex-col gap-5'>
@@ -103,7 +103,7 @@ const Footer = () => {
                         <p className='sm:text-footerfont text-[10px]'>Copyright &#169; All Rights Reserved</p>
                     </div>
                     <div className='flex gap-5 sm:text-footerfont text-[10px]'>
-                        <ul className="list-disc flex gap-5 sm:flex-nowrap flex-wrap">
+                        <ul className="list-disc flex gap-3 justify-center items-center sm:flex-nowrap flex-wrap">
                             <li>Use Agreement</li>
                             <li>Terms &amp; Conditions</li>
                             <li>Privacy Policy</li>
