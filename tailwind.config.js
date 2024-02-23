@@ -20,8 +20,11 @@ module.exports = {
         btnpadding: "12px 20px 12px 20px",
         navpadding: "16px 32px 16px 32px",
         navspacing: "30px",
+        navinsidepadding: "15px 31px 15px 31px",
       },
       fontSize: {
+        f12: "12px",
+        f14: "14px",
         footerfont: "14px",
         navfontsize: "16px",
         primary: "30px",

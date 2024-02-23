@@ -28,8 +28,8 @@ function App() {
       {/* home section one  */}
       <section className="w-full text-[#6C6C6C]">
         <div className="mt-10 flex justify-center items-center flex-col">
-          <h3 className="sm:text-primary text-navfontsize font-w400 text-[#000]">Explore Your Future with</h3>
-          <h1 className="sm:text-secondary text-primary font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-blue-600">
+          <h3 className="sm:text-primary text-navfontsize font-w400 text-[##1E1E1E]">Explore Your Future with</h3>
+          <h1 className="sm:text-secondary text-primary font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-sky-500">
             <Typewriter data-aos="fade-up" words={["NetWorkStranger"]} loop={1} cursor cursorStyle="" typeSpeed={50} deleteSpeed={50} delaySpeed={1000} />
           </h1>
           <p className="text-center sm:w-[1088px] w-[336] p-2 sm:text-f20 text-footerfont" data-aos="fade-up">
@@ -50,7 +50,7 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="h-72 p-16 relative bg-gradient-to-r from-sky-500 to-blue-600 w-full flex justify-center items-center">
+      <div className="h-72 p-16 relative bg-gradient-to-r from-[#3F5EFB] to-[#029ED8] w-full flex justify-center items-center">
         <div className="w-full absolute top-[-100px]">
           <Carousel />
         </div>
@@ -58,8 +58,8 @@ function App() {
       {/* job openings section */}
       <section className="w-full flex justify-center flex-col items-center pb-20">
         <div className="flex justify-center items-center flex-col sm:m-24 mt-24">
-          <h1 className="sm:text-f48 text-f24 font-black">Latest Job Openings</h1>
-          <p className="sm:text-f20 text-footerfont text-center text-neutral-500">Start your dream career now. Join our team of professionals</p>
+          <h1 className="sm:text-f48 text-f24 font-black text-[#1E1E1E]">Latest Job Openings</h1>
+          <p className="sm:text-f20 text-footerfont text-center text-[#6C6C6C]">Start your dream career now. Join our team of professionals</p>
         </div>
 
         {/* tile component  */}
@@ -77,14 +77,14 @@ function App() {
         <img src={companieslogo} alt="companies logos" />
 
         {/* line */}
-        <div className="h-[3px] sm:w-3/4 w-full bg-gradient-to-r from-white from-1% via-sky-500 via-[percentage:80%] to-white"></div>
+        <div className="h-[3px] sm:w-3/4 w-full bg-gradient-to-r from-white from-1% via-blue-600 via-[percentage:50%] to-white"></div>
 
         {/* banner  */}
         <div className="sm:w-[1510px] w-[336px] sm:h-[318px] h-[170px] sm:mt-20 sm:mb-20 relative flex justify-center items-center text-white">
-          <div className="absolute text-center">
+          <div className="absolute text-center flex justify-around items-center flex-col">
             <h4 className="sm:text-primary text-footerfont">Ready to Elevate Your Network Game</h4>
             <h1 className="sm:text-secondary text-f20 font-masterbold">Join NetworkStranger now!</h1>
-            <button className="sm:w-[235px] w-[139px] bg-white hover:bg-blue-400 text-blue-700 hover:text-white font-bold sm:py-2 sm:px-4 rounded-btnradius shadow-md hover:shadow-lg transition duration-200 sm:text-[16px] text-[12px]">Get Started for Free</button>
+            <button className="sm:w-[235px] w-[139px] sm:h-[56px] bg-white text-blue-700 font-w400 sm:py-2 sm:px-4 sm:mt-10 rounded-btnradius shadow-md hover:shadow-lg transition duration-200 sm:text-navfontsize text-[12px]">Get Started for Free</button>
           </div>
           <img src={homebanner} alt="homebanner image" />
         </div>
@@ -110,35 +110,35 @@ const jobTile = [
     job: {
       title: "Digital Marketing Executive",
       location: "Remote (India)",
-      experience: "Minimum 5 Years",
+      experience: "Minimum 3 Years",
     },
   },
   {
     job: {
       title: "Content Writer",
       location: "Remote (India)",
-      experience: "Minimum 5 Years",
+      experience: "Minimum 3 Years",
     },
   },
   {
     job: {
       title: "BD-Lead",
       location: "Remote (India)",
-      experience: "Minimum 5 Years",
+      experience: "Minimum 4 Years",
     },
   },
   {
     job: {
       title: "UX Designer",
       location: "Remote (India)",
-      experience: "Minimum 5 Years",
+      experience: "Minimum 3 Years",
     },
   },
   {
     job: {
       title: "Sales Manager",
       location: "Remote (India)",
-      experience: "Minimum 5 Years",
+      experience: "Minimum 6 Years",
     },
   },
 ]
