@@ -58,13 +58,13 @@ function App() {
       {/* job openings section */}
       <section className="w-full flex justify-center flex-col items-center pb-20">
         <div className="flex justify-center items-center flex-col sm:m-24 mt-24">
-          <h1 className="sm:text-f48 text-f24 font-black text-[#1E1E1E]">Latest Job Openings</h1>
-          <p className="sm:text-f20 text-footerfont text-center text-[#6C6C6C]">Start your dream career now. Join our team of professionals</p>
+          <h1 className="sm:text-f48 text-f24 font-masterbold text-[#1E1E1E]">Latest Job Openings</h1>
+          <p className="sm:text-f20 text-footerfont text-center mt-5 text-[#6C6C6C]">Start your dream career now. Join our team of professionals</p>
         </div>
 
         {/* tile component  */}
         <div className="w-full flex justify-center items-center sm:m-0 m-20">
-          <div className="flex justify-center items-center sm:flex-row sm:flex-wrap flex-col gap-5">
+          <div className="flex justify-center items-center sm:flex-row sm:flex-wrap flex-col gap-[20px]">
             {jobTile.map((e, idx) => (
               <JobTile key={idx} title={e.job.title} location={e.job.location} experience={e.job.experience} />
             ))}
