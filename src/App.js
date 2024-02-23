@@ -84,7 +84,7 @@ function App() {
           <div className="absolute text-center flex justify-around items-center flex-col">
             <h4 className="sm:text-primary text-footerfont">Ready to Elevate Your Network Game</h4>
             <h1 className="sm:text-secondary text-f20 font-masterbold">Join NetworkStranger now!</h1>
-            <button className="sm:w-[235px] w-[139px] sm:h-[56px] bg-white text-blue-700 font-w400 sm:py-2 sm:px-4 sm:mt-10 rounded-btnradius shadow-md hover:shadow-lg transition duration-200 sm:text-navfontsize text-[12px]">Get Started for Free</button>
+            <button className="sm:w-[235px] w-[139px] sm:h-[56px] bg-white text-blue-700 font-w400 sm:py-2 sm:px-4 sm:mt-10 rounded-btnradius shadow-md hover:shadow-2xl transition duration-200 sm:text-navfontsize text-[12px]">Get Started for Free</button>
           </div>
           <img src={homebanner} alt="homebanner image" />
         </div>
