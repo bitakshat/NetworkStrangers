@@ -80,7 +80,7 @@ function App() {
         <div className="h-[3px] sm:w-3/4 w-full bg-gradient-to-r from-white from-1% via-blue-600 via-[percentage:50%] to-white"></div>
 
         {/* banner  */}
-        <div className="sm:w-[1510px] w-[336px] sm:h-[318px] h-[170px] sm:mt-20 sm:mb-20 relative flex justify-center items-center text-white">
+        <div className="sm:w-full w-[336px] sm:h-[318px] h-[170px] sm:mt-20 sm:mb-20 relative flex justify-center items-center text-white">
           <div className="absolute text-center flex justify-around items-center flex-col">
             <h4 className="sm:text-primary text-footerfont">Ready to Elevate Your Network Game</h4>
             <h1 className="sm:text-secondary text-f20 font-masterbold">Join NetworkStranger now!</h1>
