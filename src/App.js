@@ -28,7 +28,7 @@ function App() {
       {/* home section one  */}
       <section className="w-full text-[#6C6C6C]">
         <div className="mt-10 flex justify-center items-center flex-col">
-          <h3 className="sm:text-primary text-navfontsize font-w400 text-[##1E1E1E]">Explore Your Future with</h3>
+          <h3 className="sm:text-primary text-navfontsize font-w400 text-[#1E1E1E]">Explore Your Future with</h3>
           <h1 className="sm:text-secondary text-primary font-masterbold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-sky-500">
             <Typewriter data-aos="fade-up" words={["NetWorkStranger"]} loop={1} cursor cursorStyle="" typeSpeed={50} deleteSpeed={50} delaySpeed={1000} />
           </h1>
